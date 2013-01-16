@@ -2,7 +2,7 @@
 use Module::Build;
 my $build = Module::Build->new(
     module_name         => 'Minecraft::RCON',
-    license             => 'pd',
+    license             => '',
     create_makefile_pl  => 'small',
     PL_files            => { 
         'Bin.PL' => 'bin/mcrcon.pl' 

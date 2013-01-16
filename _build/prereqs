@@ -1,0 +1,11 @@
+do{ my $x = {
+       'build_requires' => {},
+       'conflicts' => {},
+       'requires' => {
+                       'perl' => '5.8.8',
+                       'Term::ANSIColor' => '3.02',
+                       'IO::Socket' => '1.18'
+                     },
+       'recommends' => {}
+     };
+$x; }
